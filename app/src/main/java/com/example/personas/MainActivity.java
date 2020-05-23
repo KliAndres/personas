@@ -23,12 +23,12 @@ public class MainActivity extends AppCompatActivity {
         opciones = getResources().getStringArray(R.array.opciones);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, opciones);
         lista_opciones.setAdapter(adapter);
-        lista_opciones.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+        lista_opciones.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
                     case 0:
-                        intent = new Intent(MainActivity.this, CrearPersonas.class);
+                        intent =new Intent(MainActivity.this, CrearPersonas.class);
                         startActivity(intent);
                         break;
                     case 1:
@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                 }
-                return false;
             }
         });
     }

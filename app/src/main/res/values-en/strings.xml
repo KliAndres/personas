@@ -13,4 +13,5 @@
     <string name="error_nombre">Type name</string>
     <string name="error_apellido">Type last name</string>
     <string name="numero">Number</string>
+    <string name="mensaje_guardado">Save Succefull</string>
 </resources>

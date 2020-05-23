@@ -18,6 +18,7 @@
     <string name="error_nombre">Digite el nombre</string>
     <string name="error_apellido">Digite el apellido</string>
     <string name="numero">No.</string>
+    <string name="mensaje_guardado">Mensaje Guardado</string>
 
 
 </resources>
