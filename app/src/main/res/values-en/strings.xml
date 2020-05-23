@@ -9,4 +9,7 @@
     <string name="guardar">Save</string>
     <string name="limpiar">Clean</string>
     <string name="cedula">DNI</string>
+    <string name="error_cedula">Type ID</string>
+    <string name="error_nombre">Type name</string>
+    <string name="error_apellido">Type last name</string>
 </resources>
