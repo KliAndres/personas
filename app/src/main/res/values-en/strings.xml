@@ -3,4 +3,10 @@
     <string name="app_name">People</string>
     <string name="opcion_crear">Create</string>
     <string name="opcion_listar">List</string>
+    <string name="titulo">Create people</string>
+    <string name="nombre">Name</string>
+    <string name="apellido">Last Name</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clean</string>
+    <string name="cedula">DNI</string>
 </resources>
